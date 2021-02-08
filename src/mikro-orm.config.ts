@@ -9,7 +9,7 @@ export default {
     pattern: /^[\w-]+\d+\.[tj]s$/, // regex pattern for the migration files
   },
   entities: [Post],
-  dbName: 'mnit',
+  dbName: 'postgres',
   type: 'postgresql',
   username: 'postgres',
   password: 'password',

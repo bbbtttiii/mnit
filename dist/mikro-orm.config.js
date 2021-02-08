@@ -12,7 +12,7 @@ exports.default = {
         pattern: /^[\w-]+\d+\.[tj]s$/,
     },
     entities: [Post_1.Post],
-    dbName: 'mnit',
+    dbName: 'postgres',
     type: 'postgresql',
     username: 'postgres',
     password: 'password',
