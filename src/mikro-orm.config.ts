@@ -11,5 +11,7 @@ export default {
   entities: [Post],
   dbName: 'mnit',
   type: 'postgresql',
+  username: 'postgres',
+  password: 'password',
   debug: !__prod__
 } as Parameters<typeof MikroORM.init>[0];
